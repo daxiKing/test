@@ -1,0 +1,20 @@
+name: EmojiPlugin
+version: '${project.version}'
+main: gg.kasai.emojiplugin.EmojiPlugin
+api-version: '1.20'
+description: Custom emoji plugin for chat using :emoji_name: syntax
+authors: [KasaiNetwork]
+
+commands:
+  emojis:
+    description: Emoji plugin commands
+    usage: /emojis <help|list|reload>
+    aliases: [emoji, em]
+
+permissions:
+  emojiplugin.use:
+    description: Allows using emojis in chat
+    default: true
+  emojiplugin.admin:
+    description: Allows reloading the emoji plugin
+    default: op

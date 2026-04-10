@@ -1,0 +1,64 @@
+# EmojiPlugin Configuration
+# Add your custom emojis below!
+# Format: emoji_name: "unicode_character_or_text"
+# Players use :emoji_name: in chat to trigger them
+
+# Permission required to use emojis (set to "" to allow everyone)
+use-permission: "emojiplugin.use"
+
+# Show emoji list per page
+list-per-page: 10
+
+# Messages
+messages:
+  no-permission: "&cYou don't have permission to use emojis!"
+  reload-success: "&aEmoji config reloaded! &7(%s emojis loaded)"
+  unknown-command: "&cUnknown command! Use /emojis help"
+
+# Default built-in emojis (unicode text symbols)
+# You can add more here, or they will be auto-loaded from the /emojis/ folder images
+emojis:
+  # Smileys
+  smile: "☺"
+  grin: "☻"
+  heart: "❤"
+  broken_heart: "💔"
+  star: "★"
+  star2: "☆"
+  check: "✔"
+  cross: "✖"
+  music: "♪"
+  music2: "♫"
+  sun: "☀"
+  cloud: "☁"
+  snow: "❄"
+  lightning: "⚡"
+  fire: "🔥"
+  skull: "☠"
+  warning: "⚠"
+  diamond: "◆"
+  arrow_right: "➤"
+  arrow_left: "◄"
+  crown: "♔"
+  sword: "⚔"
+  shield: "🛡"
+  trophy: "🏆"
+  flag: "⚑"
+  wave: "〰"
+  thumbsup: "👍"
+  thumbsdown: "👎"
+  clap: "👏"
+  eyes: "👀"
+  gg: "✌"
+  rip: "✟"
+  omega: "Ω"
+  infinity: "∞"
+  copyright: "©"
+  registered: "®"
+  trade: "™"
+  degree: "°"
+  # Minecraft related
+  creeper: "⦿"
+  pickaxe: "⛏"
+  sword2: "⚔"
+  gem: "💎"
